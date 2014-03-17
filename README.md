@@ -3,16 +3,17 @@ cnp.js
 
 Romanian Personal Identification Number (Cod Numeric Personal, or CNP) validator
 
-# Romanian Personal Identification Number (Cod Numeric Personal, or CNP)
-G YY MM DD CC NNN C
-| |  |  |  |  |   |
-| |  |  |  |  |   +- Checksum
-| |  |  |  |  +----- Serial Number
-| |  |  |  +-------- County Code
-| |  |  +----------- Day (of birth)
-| |  +-------------- Month (of birth)
-| +----------------- Year (of birth)
-+------------------- Gender
+The CNP has the following format:
+
+    G YY MM DD CC NNN C
+    | |  |  |  |  |   |
+    | |  |  |  |  |   +- Checksum
+    | |  |  |  |  +----- Serial Number
+    | |  |  |  +-------- County Code
+    | |  |  +----------- Day (of birth)
+    | |  +-------------- Month (of birth)
+    | +----------------- Year (of birth)
+    +------------------- Gender
 
 ## Gender
 * 1 - male born between 1900 and 1999
