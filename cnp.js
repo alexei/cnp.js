@@ -32,7 +32,7 @@ function is_valid_cnp(value) {
                 }
         }
         var jj = parseInt(m[5])
-        if (jj < 0 || (jj > 46 && jj < 51) || jj > 52) {
+        if (jj < 0 || (jj > 47 && jj < 51) || jj > 52) {
             return false
         }
         var nnn = parseInt(m[6])
