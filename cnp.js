@@ -10,7 +10,7 @@ function is_valid_cnp(value) {
     // 6: nnn (001-999)
     // 7: c (279146358279)
     var m
-    if (m = /^([1-8])(0[1-9]|[1-9][0-9])(0[1-9]|1[0-2])(\d{2})(\d{2})(\d{3})(\d)$/.exec(value)) {
+    if (m = /^([1-8])(0[0-9]|[1-9][0-9])(0[1-9]|1[0-2])(\d{2})(\d{2})(\d{3})(\d)$/.exec(value)) {
         var ll = parseInt(m[3])
         var zz = parseInt(m[4])
         switch (ll) {
